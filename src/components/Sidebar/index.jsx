@@ -5,12 +5,12 @@ import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-const Sidebar =()=> (
-    
+const Sidebar = () => (
+
     <div className='nav-bar'>
         <Link className="logo" to='/'>
-            <img src={LogoS} alt="logo"/>
-            <img className="sub-logo" src={LogoSubtitle} alt="slobodan"/>
+            <img src={LogoS} alt="logo" />
+            <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
@@ -23,19 +23,19 @@ const Sidebar =()=> (
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"></FontAwesomeIcon>
             </NavLink>
         </nav>
-            <ul>
-                <li>
-            <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/mhkutsal/'>
-                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-            </a>
-        </li>
-        <li>
-            <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/mhkutsal/'>
-                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-            </a>
-        </li>
+        <ul>
+            <li>
+                <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/mhkutsal/'>
+                    <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href='https://github.com/M-Halid'>
+                    <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                </a>
+            </li>
         </ul>
-     </div>
+    </div>
 )
 
 export default Sidebar 

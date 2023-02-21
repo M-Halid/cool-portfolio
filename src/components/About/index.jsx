@@ -1,10 +1,9 @@
 import './index.scss';
-import Sidebar from '../Sidebar'
 
 
-const About =()=>{
+const About = () => {
     return (<>
-    <Sidebar/>
+
     </>)
 }
 
