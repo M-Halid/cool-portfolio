@@ -20,9 +20,9 @@ const About = () => {
                 letterClass={letterClass}
                 strArray={["A","b","o","u","t"," ","m","e"]} idx={15} />
                 </h1>
-                <p> I'm Very good at something</p>
-                <p>You know, stuff</p>
-                <p>Ok c u around!</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum temporibus odio et blanditiis tempora perspiciatis nihil quod tempore quia expedita, fugiat sequi fugit fuga quo sit quidem ut cum ipsam.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non magnam veritatis suscipit omnis, dignissimos autem necessitatibus maxime quis optio reiciendis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, explicabo.</p>
             </div>  
             <div className="stage-cube-cont">
                 <div className="cubespinner">
